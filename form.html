@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>質問・感想フォーム</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body background="images/bg_Argyle.jpg">
+    <h1>
+        質問・感想フォーム
+    </h1>
+    <div class="form" style="text-align: center;">
+        <form>
+        <p>
+            氏名
+        </p>
+        <input type="text" class="form_input">
+        <p>
+            性別
+        </p>
+        <div>
+            <div class="form_input">
+                <label><input type="radio" name="seibetu" checked>男</label>
+            </div>
+            <div class="form_input">
+                <label><input type="radio" name="seibetu" >女</label>
+            </div>
+        </div>
+        <p>
+            年齢
+        </p>
+        <select name="age">
+            <label><option value="10">10代</option></label>
+            <label><option value="20">20代</option></label>
+            <label><option value="30">30代</option></label>
+            <label><option value="40">40代</option></label>
+            <label><option value="50">50代</option></label>
+            <label><option value="60">60代</option></label>
+            <label><option value="70">70代</option></label>
+            <label><option value="80">80代</option></label>
+        </select>
+        <p>
+            今後見てみたいレシピ
+        </p>
+            <div class="form_input">
+                <input type="checkbox" id="recipe1"><label for="recipe1">和食</label>
+            </div>
+            <div class="form_input">
+                <input type="checkbox" id="recipe2"><label for="recipe2">中華</label>
+            </div>
+            <div class="form_input">
+                <input type="checkbox" id="recipe3"><label for="recipe3">洋食</label>
+            </div>
+            <div class="form_input">
+                <input type="checkbox" id="recipe4"><label for="recipe4">イタリアン</label>
+            </div>
+            <div class="form_input">
+                <input type="checkbox" id="recipe5"><label for="recipe5">スイーツ</label>
+            </div>
+            <div class="form_input">
+                <input type="checkbox" id="recipe6"><label for="recipe6">その他</label>
+            </div>
+        <p>
+            自由コメント欄
+        </p>
+        <textarea rows="4" cols="40">自由に意見を記述してください</textarea>
+        <br />
+        <button type="button">送信</button>
+        <button type="reset">取り消し</button>
+        </form>
+    </div>
+</body>
+</html>

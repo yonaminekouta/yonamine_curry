@@ -1,0 +1,54 @@
+/* 3. 別ファイルに切り出す */ 
+/* h1 {
+  color: red;
+} */
+
+/* #idの値 */
+.hello {
+  color: #c71585; /* 00 ~ FF */
+  color: rgb(100, 0, 0); /* 0~255 */
+  background-color: yellow;
+  /* px, em, rem, % */
+  /* font-size: 50px; */
+  /* height: 100px; */
+  width: 200px;
+  height: 500px;
+
+}
+
+/* .クラスの値 */
+.world {
+  color: blue;
+  background-color: pink;
+  width: 50%;
+  height: 500px;
+  padding-left: 40px;
+  border: red 5px solid;
+  margin: 20px;
+}
+
+.world:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+}
+
+.link a {
+  display: block;
+  height: 100px;
+}
+
+/* コメント */
+
+/*
+CSSの書き方
+
+セレクタ {
+  プロパティ: 値;
+}
+
+
+*/

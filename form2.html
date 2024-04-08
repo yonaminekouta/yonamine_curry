@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>入力フォーム2</title>
+    <link rel="stylesheet" href="css/form2.css">
+</head>
+<body style="background-color: azure; text-align: center;">
+    <p class="top_text">
+        アンケート
+    </p>
+    <div class="all">
+        <div class="form">
+            <form>
+                <p>
+                    Axizの研修をご利用いただき、誠にありがとうございます。
+                    <br />
+                    以下の内容の記入及び送信をしていただけると幸いです。
+                </p>
+                <br />
+                <p>
+                    会社名　<label class="hissu">必須</label>
+                </p>
+                <textarea rows="1" cols="60" placeholder="例)株式会社テクノコア"></textarea>
+                <p>
+                    お名前　<label class="hissu">必須</label>
+                </p>
+                <textarea rows="1" cols="60" placeholder="例)手久野　興亜"></textarea>
+                <p>
+                    メールアドレス
+                </p>
+                <textarea rows="1" cols="60" placeholder="例)example@axiz.co.jp"></textarea>
+                <p>
+                    年齢
+                </p>
+                <input type="number" style="text-align: center;">
+                <p>
+                    受講コース
+                </p>
+                <label><input type="radio" name="course" checked>Java</label>
+                <label><input type="radio" name="course" >インフラ</label>
+                <p>
+                    会場
+                </p>
+                <select name="age">
+                    <option value="a">日本橋A教室</option>
+                    <option value="b">日本橋B教室</option>
+                    <option value="c">日本橋C教室</option>
+                </select>
+                <p>
+                    詳しく学びたい内容
+                </p>
+                <div class="checkbox">
+                    <label class="checkbox"><input type="checkbox">ビジネスマナー</label>
+                    <label class="checkbox"><input type="checkbox">HTML/CSS</label>
+                    <label class="checkbox"><input type="checkbox">JavaScript</label>
+                    <label class="checkbox"><input type="checkbox">Java</label>
+                    <label class="checkbox"><input type="checkbox">データベース</label>
+                    <label class="checkbox"><input type="checkbox">Linux</label>
+                </div>
+                <p>
+                    ご意見
+                </p>
+                <textarea rows="10" cols="60">自由にご記入ください。</textarea>
+                <button type="button">送信する</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

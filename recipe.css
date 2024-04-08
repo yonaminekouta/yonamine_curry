@@ -1,0 +1,21 @@
+
+.top {
+    text-align:center;
+  }
+
+.curry{
+    text-align:center;
+    border: red 5px double;
+}
+
+.table_top{
+    color: red;
+}
+
+tr{
+    background-color:#fffacd;
+}
+
+.chocolate{
+    display: flex;
+}

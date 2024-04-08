@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+.form{
+    background-color: white;
+    border: purple 1px solid;
+    border-radius:  10px 10px 10px 10px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form_input{
+    border: black 1px solid;
+    display: inline-block;
+    border-radius:  5px 5px 5px 5px;
+    padding-right: 5px;
+}
